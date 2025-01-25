@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MLuck - Find Your Dream Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="#" class="logo">-M-Luck</a>
+                <ul class="nav-links">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="listing.html">Listings</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Find Your Dream Home</h1>
+                <p>Discover luxury properties in prime locations</p>
+                <form class="search-form">
+                    <input type="text" placeholder="Location">
+                    <select>
+                        <option value="">Property Type</option>
+                        <option value="house">House</option>
+                        <option value="apartment">Apartment</option>
+                        <option value="villa">Villa</option>
+                    </select>
+                    <select>
+                        <option value="">Price Range</option>
+                        <option value="0-500000">$0 - $500,000</option>
+                        <option value="500000-1000000">$500,000 - $1,000,000</option>
+                        <option value="1000000+">$1,000,000+</option>
+                    </select>
+                    <select>
+                        <option value="">Bedrooms</option>
+                        <option value="1">1+</option>
+                        <option value="2">2+</option>
+                        <option value="3">3+</option>
+                        <option value="4">4+</option>
+                    </select>
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="featured-properties">
+            <div class="container">
+                <h2>Featured Properties</h2>
+                <div class="property-grid">
+                    <div class="property-card">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="Luxury Villa">
+                        <div class="property-info">
+                            <h3>Luxury Villa with Ocean View</h3>
+                            <p class="price">$2,500,000</p>
+                            <p class="location"><i class="fas fa-map-marker-alt"></i> Malibu, CA</p>
+                            <ul class="features">
+                                <li><i class="fas fa-bed"></i> 5 Beds</li>
+                                <li><i class="fas fa-bath"></i> 4 Baths</li>
+                                <li><i class="fas fa-ruler-combined"></i> 4,500 sqft</li>
+                            </ul>
+                            <a href="#" class="btn">View Details</a>
+                        </div>
+                    </div>
+                    <div class="property-card">
+                        <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1475&q=80" alt="Modern Apartment">
+                        <div class="property-info">
+                            <h3>Modern Downtown Apartment</h3>
+                            <p class="price">$850,000</p>
+                            <p class="location"><i class="fas fa-map-marker-alt"></i> New York, NY</p>
+                            <ul class="features">
+                                <li><i class="fas fa-bed"></i> 2 Beds</li>
+                                <li><i class="fas fa-bath"></i> 2 Baths</li>
+                                <li><i class="fas fa-ruler-combined"></i> 1,200 sqft</li>
+                            </ul>
+                            <a href="#" class="btn">View Details</a>
+                        </div>
+                    </div>
+                    <div class="property-card">
+                        <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80" alt="Countryside Retreat">
+                        <div class="property-info">
+                            <h3>Countryside Retreat</h3>
+                            <p class="price">$1,200,000</p>
+                            <p class="location"><i class="fas fa-map-marker-alt"></i> Aspen, CO</p>
+                            <ul class="features">
+                                <li><i class="fas fa-bed"></i> 4 Beds</li>
+                                <li><i class="fas fa-bath"></i> 3 Baths</li>
+                                <li><i class="fas fa-ruler-combined"></i> 3,800 sqft</li>
+                            </ul>
+                            <a href="#" class="btn">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <h2>Ready to Find Your Dream Home?</h2>
+                <p>Our expert agents are here to help you every step of the way.</p>
+                <div class="cta-buttons">
+                    <a href="#" class="btn btn-primary">Schedule a Viewing</a>
+                    <a href="#" class="btn btn-secondary">Get a Free Consultation</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>LuxeRealty</h3>
+                    <p>Find your dream home with us. Luxury properties in prime locations.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Listings</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter for the latest property updates.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 MLuck. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
