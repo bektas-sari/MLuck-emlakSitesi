@@ -23,7 +23,7 @@ luxerealty/
 
 # Kurulum
 Bu repository'yi klonlayın:
-git clone https://github.com/bektas-sari/luxerealty.git
+git clone https://github.com/bektas-sari/MLuck-emlakSitesi.git
 
 Proje dizinine gidin:
 cd luxerealty
