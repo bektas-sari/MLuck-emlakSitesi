@@ -30,7 +30,7 @@ cd luxerealty
 
 index.html dosyasını bir web tarayıcısında açın.
 
-## Kullanım
+# Kullanım
 Ana sayfa: index.html
 Mülk listesi sayfası: listing.html
 Özelleştirme
@@ -40,3 +40,8 @@ Ek sayfalar eklemek için mevcut HTML dosyalarını şablon olarak kullanın ve 
 
 # Lisans
 Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için LICENSE dosyasına bakın.
+
+# İletişim
+GitHub: bektas-sari 
+Email: bektas.sari@gmail.com 
+LinkedIn: bektas-sari
