@@ -1,47 +1,56 @@
-## LuxeRealty Emlak Sitesi
-LuxeRealty, modern ve şık bir emlak web sitesidir. HTML, CSS ve JavaScript kullanılarak oluşturulmuştur. Site, potansiyel alıcılara lüks mülkleri sergilemek ve emlak arama sürecini kolaylaştırmak için tasarlanmıştır.
+# LuxeRealty - Premium Emlak Web Sitesi
+
+LuxeRealty, HTML, CSS ve JavaScript kullanılarak oluşturulmuş modern ve şık bir emlak web sitesidir. Lüks mülkleri sergilemek için tasarlanmış olup, kullanıcı dostu bir arayüz sunarak emlak arama sürecini kolaylaştırır.
 
 ## Özellikler
-Responsive tasarım
-Ana sayfa ile öne çıkan mülklerin gösterimi
-Mülk listesi sayfası ile filtreleme ve sıralama özellikleri
-Her mülk için detay sayfası
-İletişim formu
-Hakkımızda sayfası
-Blog sayfası
+- **Tamamen Duyarlı Tasarım** – Tüm cihazlar için optimize edilmiştir.
+- **Ana Sayfa Vitrini** – Öne çıkan mülkleri sergiler.
+- **Mülk Listeleme Sayfası** – Filtreleme ve sıralama seçenekleri sunar.
+- **Detaylı Mülk Sayfaları** – Mülk hakkında kapsamlı bilgiler içerir.
+- **İletişim Formu** – Kullanıcıların kolayca iletişime geçmesini sağlar.
+- **Hakkımızda Sayfası** – Firma hakkında bilgi verir.
+- **Blog Bölümü** – En son emlak trendlerini paylaşır.
 
-# Dosya Yapısı
+## Dosya Yapısı
+```
 luxerealty/
 │
-├── index.html
-├── listing.html
-├── style.css
-├── script.js
-├── images/
-│   └── (proje görselleri)
-└── README.md
+├── index.html        # Ana sayfa
+├── listing.html      # Mülk listesi
+├── style.css        # Stil dosyası
+├── script.js        # JavaScript fonksiyonları
+├── images/          # Proje görselleri
+│   └── (mülk resimleri, site varlıkları)
+└── README.md        # Proje dokümantasyonu
+```
 
-# Kurulum
-Bu repository'yi klonlayın:
-git clone https://github.com/bektas-sari/MLuck-emlakSitesi.git
+## Kurulum ve Kullanım
+Bu projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları takip edin:
 
-Proje dizinine gidin:
-cd luxerealty
+1. Depoyu klonlayın:
+   ```bash
+   git clone https://github.com/bektas-sari/MLuck-emlakSitesi.git
+   ```
+2. Proje dizinine gidin:
+   ```bash
+   cd luxerealty
+   ```
+3. `index.html` dosyasını bir web tarayıcısında açın.
 
-index.html dosyasını bir web tarayıcısında açın.
+## Özelleştirme
+- **Renk Şemasını Değiştirme**: `style.css` dosyasındaki CSS değişkenlerini güncelleyerek tema renklerini değiştirebilirsiniz.
+- **Yeni Mülkler Ekleme**: `index.html` ve `listing.html` dosyalarındaki mevcut HTML yapısını kopyalayarak yeni mülkler ekleyebilirsiniz.
+- **Ek Sayfalar Oluşturma**: Var olan HTML dosyalarını şablon olarak kullanarak yeni sayfalar oluşturabilirsiniz.
 
-# Kullanım
-Ana sayfa: index.html
-Mülk listesi sayfası: listing.html
-Özelleştirme
-Renk şemasını değiştirmek için style.css dosyasındaki CSS değişkenlerini düzenleyin.
-Yeni mülkler eklemek için index.html ve listing.html dosyalarındaki HTML yapısını kopyalayıp yapıştırın ve bilgileri güncelleyin.
-Ek sayfalar eklemek için mevcut HTML dosyalarını şablon olarak kullanın ve yeni içerik ekleyin.
+## Lisans
+Bu proje **MIT Lisansı** altında lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına bakabilirsiniz.
 
-# Lisans
-Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için LICENSE dosyasına bakın.
+## İletişim
+İş birlikleri ve sorularınız için benimle iletişime geçebilirsiniz:
+- **GitHub**: [bektas-sari](https://github.com/bektas-sari)
+- **E-posta**: bektas.sari@gmail.com
+- **LinkedIn**: [bektas-sari](https://www.linkedin.com/in/bektas-sari)
 
-# İletişim
-GitHub: bektas-sari 
-Email: bektas.sari@gmail.com 
-LinkedIn: bektas-sari
+---
+Emlak deneyimlerini geliştirmek için tutkuyla geliştirildi! 🏡✨
+
