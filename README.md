@@ -1,4 +1,4 @@
-# LuxeRealty - Premium Emlak Web Sitesi
+# LuxeRealty - Emlak Web Sitesi
 
 LuxeRealty, HTML, CSS ve JavaScript kullanılarak oluşturulmuş modern ve şık bir emlak web sitesidir. Lüks mülkleri sergilemek için tasarlanmış olup, kullanıcı dostu bir arayüz sunarak emlak arama sürecini kolaylaştırır.
 
