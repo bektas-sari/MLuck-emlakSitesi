@@ -51,6 +51,4 @@ Bu proje **MIT Lisansı** altında lisanslanmıştır. Daha fazla bilgi için `L
 - **E-posta**: bektas.sari@gmail.com
 - **LinkedIn**: [bektas-sari](https://www.linkedin.com/in/bektas-sari)
 
----
-Emlak deneyimlerini geliştirmek için tutkuyla geliştirildi! 🏡✨
 
